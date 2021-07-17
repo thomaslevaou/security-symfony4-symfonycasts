@@ -1,7 +1,5 @@
 # Fetch the User Object
 
-23h05 - 23h55 (chapitre 19 inclus)
-
 Dans `AccountController`, on souhaite récupérer l'utilisateur actuellement 
 connecté pour en afficher ses données. Pour ce faire on va faire appel à la 
 fonction `$this->getUser()` dans ce contrôleur, qui donne tout l'entité User

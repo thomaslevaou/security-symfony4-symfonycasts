@@ -1,6 +1,5 @@
 # Fetching the User In a Service
 
-
 On a vu comment récupérer un User dans un contrôleur ou en Twig. Maintenant, on va
 voir comment en récupérer un depuis un Service.
 
