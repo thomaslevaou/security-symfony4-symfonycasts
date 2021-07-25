@@ -49,7 +49,7 @@ la logique dans la méthode `edit()` :
 ```PHP
 public function edit(Article $article)
 {
-    if ($article->getAuthor() != $this->getUser() && $this->isGranted('ROLE_ADMIN_ARTICLE')) {
+    if ($article->getAuthor() != $this->getUser() && !$this->isGranted('ROLE_ADMIN_ARTICLE')) {
         throw $this->createAccessDeniedException('No access !');
     }
     dd($article);
