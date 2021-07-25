@@ -13,7 +13,7 @@ contient une méthode appelée `start()` qui détermine **l'Entry Point**, c'est
 ce que le site doit faire quand un utilisateur anonyme essaie d'accéder à des pages.  
 
 Une fois connecté, l'utilisateur est redirigé sur la page d'accueil au lieu 
-d'être redirigé sur la page à la quelle il souhaitait accéder (/admin/comment).  
+d'être redirigé sur la page à laquelle il souhaitait accéder (/admin/comment).  
 Ceci est du au fait que dans notre `LoginFormAuthenticator`, on a écrit que 
 la méthode `onAuthenticationSuccess` redirigeait toujours vers la page d'accueil.  
 
