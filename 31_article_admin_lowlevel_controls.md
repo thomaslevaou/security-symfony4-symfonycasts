@@ -57,5 +57,6 @@ public function edit(Article $article)
 ```
 
 Ca dépanne, mais pour éviter d'avoir une logique copié-collée dans tous les sens
-dans l'appli (en php et en twig) pour gérer les accès, on va utiliser un 
+dans l'appli (en php et en twig) pour gérer les accès (et donc galère à
+maintenir sur la durée), on va utiliser un 
 système de **Voters**, qu'on va voir dans le chapitre suivant.
